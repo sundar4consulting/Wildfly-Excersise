@@ -1,0 +1,5 @@
+org\jboss\ejb3\model\Catalog.class
+org\jboss\ejb3\model\Edition.class
+org\jboss\ejb3\model\Section.class
+org\jboss\ejb3\model\Article.class
+org\jboss\ejb3\model\CatalogSessionBeanFacade.class
