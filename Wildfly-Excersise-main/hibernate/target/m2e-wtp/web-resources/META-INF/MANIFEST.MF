@@ -1,0 +1,22 @@
+Manifest-Version: 1.0
+Build-Jdk-Spec: 11
+Specification-Title: Quickstart: hibernate
+Specification-Version: 26.0
+Specification-Vendor: JBoss by Red Hat
+Implementation-Title: Quickstart: hibernate
+Implementation-Version: 26.0.0.Beta1-SNAPSHOT
+Implementation-Vendor: JBoss by Red Hat
+Created-By: Maven Integration for Eclipse
+Implementation-URL: https://github.com/wildfly/wildfly-quickstart-parent
+ /hibernate
+Java-Vendor: Eclipse Adoptium
+Java-Version: 11.0.13
+Os-Arch: amd64
+Os-Name: Windows 10
+Os-Version: 10.0
+Scm-Connection: scm:git:git@github.com:jboss/jboss-parent-pom.git/wildfl
+ y-quickstart-parent/hibernate
+Scm-Revision: 
+Scm-Url: http://github.com/jboss/jboss-parent-pom/wildfly-quickstart-par
+ ent/hibernate
+
