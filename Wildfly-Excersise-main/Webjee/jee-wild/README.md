@@ -1,4 +1,4 @@
-# A Complete Introduction to Java EE
+# A  Java EE
 ## Prerequisites
 
  - Wildfly 20 (https://www.wildfly.org/downloads/, simply download and extract)
