@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+	JBoss, Home of Professional Open Source Copyright 2010, Red Hat
+	Middleware LLC, and others contributors as indicated by the @authors
+	tag. All rights reserved. See the copyright.txt in the distribution
+	for a full listing of individual contributors. This copyrighted
+	material is made available to anyone wishing to use, modify, copy, or
+	redistribute it subject to the terms and conditions of the GNU Lesser
+	General Public License, v. 2.1. This program is distributed in the
+	hope that it will be useful, but WITHOUT A WARRANTY; without even the
+	implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR
+	PURPOSE. See the GNU Lesser General Public License for more details.
+	You should have received a copy of the GNU Lesser General Public
+	License, v.2.1 along with this distribution; if not, write to the Free
+	Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA
+	02110-1301, USA.
+-->
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>org.jboss.narayana.quickstart.rts.lra</groupId>
+    <artifactId>lra-quickstarts</artifactId>
+    <version>5.12.5.Final-SNAPSHOT</version>
+    <name>LRA Quickstarts</name>
+    <description>Provides examples of how to use transactions with web applications</description>
+    <packaging>pom</packaging>
+
+    <properties>
+        <version.microprofile.lra>1.0-RC1</version.microprofile.lra>
+        <version.thorntail>2.4.0.Final</version.thorntail>
+        <version.jackson>[2.9.10.7,)</version.jackson>
+    </properties>
+
+    <repositories>
+        <repository>
+            <id>jboss-public-repository-group</id>
+            <name>JBoss Public Maven Repository Group</name>
+            <url>https://repository.jboss.org/nexus/content/groups/public/</url>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+            <snapshots>
+                <enabled>true</enabled>
+            </snapshots>
+        </repository>
+        <repository>
+            <id>repo.eclipse.org-snapshots</id>
+            <name>Eclipse MicroProfile Repository - Snapshots</name>
+            <url>https://repo.eclipse.org/content/repositories/microprofile-snapshots</url>
+            <snapshots>
+                <enabled>true</enabled>
+            </snapshots>
+        </repository>
+    </repositories>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>io.thorntail</groupId>
+                <artifactId>bom-all</artifactId>
+                <version>${version.thorntail}</version>
+                <scope>import</scope>
+                <type>pom</type>
+            </dependency>
+            <dependency>
+                <groupId>javax.enterprise</groupId>
+                <artifactId>cdi-api</artifactId>
+                <version>1.2</version>
+            </dependency>
+            <dependency>
+                <groupId>javax.inject</groupId>
+                <artifactId>javax.inject</artifactId>
+                <version>1</version>
+            </dependency>
+            <dependency>
+                <groupId>javax.ws.rs</groupId>
+                <artifactId>javax.ws.rs-api</artifactId>
+                <version>2.0.1</version>
+                <scope>provided</scope>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
+    <modules>
+        <module>flight-service</module>
+        <module>hotel-service</module>
+        <module>trip-controller</module>
+        <module>trip-client</module>
+        <module>lra-test</module>
+    </modules>
+</project>
