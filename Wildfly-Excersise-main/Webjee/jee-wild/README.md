@@ -4,7 +4,7 @@
  - Wildfly 20 (https://www.wildfly.org/downloads/, simply download and extract)
  - Java 11 (Prefered: Wildfly Sometimes 20 doesn't officially support newer versions)
  - Docker
- - IntelliJ
+ - IntelliJ or Eclipse
  
 ## Wildfly Setup
 
