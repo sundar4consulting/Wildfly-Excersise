@@ -1,7 +1,4 @@
 # A Complete Introduction to Java EE
-
-This README is a summary of the following article: https://www.jessym.com/articles/a-complete-introduction-to-java-ee
-
 ## Prerequisites
 
  - Wildfly 20 (https://www.wildfly.org/downloads/, simply download and extract)
