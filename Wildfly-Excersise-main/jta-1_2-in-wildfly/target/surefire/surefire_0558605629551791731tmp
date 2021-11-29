@@ -1,0 +1,8 @@
+#surefire_0
+#Sun Nov 28 17:26:53 UTC 2021
+user.dir=C\:\\toc\\JTA Ref\\quickstart-master\\jta-1_2-in-wildfly
+node.address=127.0.0.1
+server.jvm.args=-server -Xms64m -Xmx1024m -XX\:MaxPermSize\=512m 
+localRepository=C\:\\Users\\health\\.m2\\repository
+modular.jdk.args=
+basedir=C\:\\toc\\JTA Ref\\quickstart-master\\jta-1_2-in-wildfly
