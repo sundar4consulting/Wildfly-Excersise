@@ -1,13 +1,10 @@
-# A Complete Introduction to Java EE
-
-This README is a summary of the following article: https://www.jessym.com/articles/a-complete-introduction-to-java-ee
-
+# A  Java EE
 ## Prerequisites
 
  - Wildfly 20 (https://www.wildfly.org/downloads/, simply download and extract)
- - Java 11 (reason: Wildfly 20 doesn't officially support newer versions)
+ - Java 11 (Prefered: Wildfly Sometimes 20 doesn't officially support newer versions)
  - Docker
- - IntelliJ
+ - IntelliJ or Eclipse
  
 ## Wildfly Setup
 
