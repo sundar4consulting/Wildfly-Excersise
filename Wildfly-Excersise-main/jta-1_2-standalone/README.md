@@ -1,7 +1,7 @@
 Standalone JTA 1.2 example.
 ===
 
-Author: Gytis Trikleris, Ondra Chaloupka<br/>
+Author: Sundar
 Level: Intermediate<br/>
 Technologies: JTA, CDI<br/>
 
